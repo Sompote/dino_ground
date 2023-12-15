@@ -1,0 +1,18 @@
+{
+  "train": [
+    {
+      "root": "/content/drive/MyDrive/figure_train",
+      "anno": "/content/Open-GroundingDino/odvg.json",
+      
+      "dataset_mode": "odvg"
+    }
+  ],
+  "val": [
+    {
+      "root": "/content/drive/MyDrive/figure_train/valid",
+       "anno": "config/instances_val2017.json",
+      "label_map": null,
+      "dataset_mode": "coco"
+    }
+  ]
+}

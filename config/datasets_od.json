@@ -1,0 +1,17 @@
+{
+  "train": [
+    {
+      "root": "figs/train",
+      "anno":"config/odvg.json",
+      "label_map": "config/label.json",
+      "dataset_mode": "odvg"
+    }
+  ],
+  "val": [
+    {
+      "root": "figs/valid",
+       "anno": "config/Val2.json",
+      "dataset_mode": "coco"
+    }
+  ]
+}
