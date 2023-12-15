@@ -10,6 +10,7 @@ To deploy this project run
 1. Use the  file finetun_dino_vast.ipynb and run to install open ground Dino
 
 2. at command promnpt run
+
 apt install libgl1-mesa-glx
 
 export CUDA_HOME=/path/to/cuda-11.3
